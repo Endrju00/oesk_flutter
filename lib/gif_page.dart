@@ -9,10 +9,10 @@ class GifPage extends StatelessWidget {
       itemCount: 250,
       itemBuilder: (context, index) => Row(
         children: [
-          Image.asset('giphy.gif'),
-          Image.asset('giphy.gif'),
-          Image.asset('giphy.gif'),
-          Image.asset('giphy.gif'),
+          Image.asset('assets/giphy.gif'),
+          Image.asset('assets/giphy.gif'),
+          Image.asset('assets/giphy.gif'),
+          Image.asset('assets/giphy.gif'),
         ],
       ),
     );
